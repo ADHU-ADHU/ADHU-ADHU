@@ -15,7 +15,10 @@ I build projects in mobile robot navigation, language-guided perception, embedde
 | [TurtleBot3 hybrid exploration](https://github.com/ADHU-ADHU/turtlebot3-hybrid-exploration-ros2) | Frontier goal selection, A* planning and LiDAR obstacle avoidance with ROS 2 Jazzy and TurtleBot3. |
 | [ESP32 micro-ROS and LoRa telemetry](https://github.com/ADHU-ADHU/esp32-microros-lora-telemetry) | Temperature publishing, ROS 2 topic subscription and a compact CRC-checked radio telemetry link. |
 
-Also: [Tabular sensor anomaly detection](https://github.com/ADHU-ADHU/Anomaly-Detection-Tabular-Data-) — GANomaly-inspired modeling, autoencoder and beta-VAE baselines, and latent-space analysis in PyTorch.
+## More projects
+
+- [Technical optimization with metaheuristics](https://github.com/ADHU-ADHU/technical-optimization-metaheuristics) — MATLAB studies in assembly-line balancing with GA, supermarket location with SA and custom PSO, and steelmaking with linear programming.
+- [Tabular sensor anomaly detection](https://github.com/ADHU-ADHU/Anomaly-Detection-Tabular-Data-) — GANomaly-inspired modeling, autoencoder and beta-VAE baselines, and latent-space analysis in PyTorch.
 
 ## Tools I work with
 
