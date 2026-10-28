@@ -2,7 +2,7 @@
 
 **Robotics · Autonomous Systems · Applied AI**
 
-I build projects in mobile robot navigation, language-guided perception, embedded communication and machine learning for industrial inspection. My work spans physical robot integration, ROS 2 software, optimization algorithms and experimental evaluation.
+I build / have built projects in mobile robot navigation, language-guided perception, embedded communication and machine learning for industrial inspection. My work spans physical robot integration, ROS 2 software, optimization algorithms and experimental evaluation.
 
 ## Featured projects
 
