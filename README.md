@@ -1,31 +1,41 @@
-# Hi, I'm Adhu
+# Hi, I'm Adhu 👋
 
-**Robotics · Autonomous Systems · Applied AI**
+**Making robots behave. Mostly.**
 
-I build / have built projects in mobile robot navigation, language-guided perception, embedded communication and machine learning for industrial inspection. My work spans physical robot integration, ROS 2 software, optimization algorithms and experimental evaluation.
+I've worked on robots that explore rooms, find their way back, and respond to typed requests about what a camera sees. Along the way, I've also worked with industrial inspection, embedded electronics and algorithms for planning AGV deliveries.
 
-## Featured projects
+This is where I'm bringing those projects together, from my two master's programs and ongoing work. You'll find code, recordings and results, along with notes on what works and what still needs attention.
 
-| Project | What it explores |
-| --- | --- |
-| [ROS 2 Mobile Robot Platform](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2) | A working mobile robot built from scratch, integrating drive hardware, sensors and ROS 2 communication. Includes teleoperation, pose estimation, return-to-base control, SLAM and frontier exploration. |
-| [ScenePilot](https://github.com/ADHU-ADHU/scenepilot-ros2) | Language-guided visual question answering and target segmentation using ROS 2, Qwen3-VL and SAM 3, with recorded demos. |
-| [Factory visual anomaly detection](https://github.com/ADHU-ADHU/factory-anomaly-detection-ae-vae) | Master's thesis research on AE/VAE models and transfer learning for assembly inspection, with results from the publicly available thesis and a reusable Python implementation. |
-| [AGV planning with nested PSO](https://github.com/ADHU-ADHU/agv-part-feeding-nested-pso) | Part allocation across trips and pickup/delivery ordering with nested PSO, plus A* routing and a PSO/DE/GA evaluation. |
-| [TurtleBot3 hybrid exploration](https://github.com/ADHU-ADHU/turtlebot3-hybrid-exploration-ros2) | Frontier goal selection, A* planning and LiDAR obstacle avoidance with ROS 2 Jazzy and TurtleBot3. |
-| [ESP32 micro-ROS and LoRa telemetry](https://github.com/ADHU-ADHU/esp32-microros-lora-telemetry) | Temperature publishing, ROS 2 topic subscription and a compact CRC-checked radio telemetry link. |
+## A glimpse of the work
 
-## More projects
+| [A robot from the ground up](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2) | [Giving perception a language interface](https://github.com/ADHU-ADHU/scenepilot-ros2) |
+| :---: | :---: |
+| [<img src="https://raw.githubusercontent.com/ADHU-ADHU/mobile-robot-platform-ros2/main/docs/assets/roverlink-robot.jpg" width="300" alt="The assembled ROS 2 mobile robot with its LiDAR and enclosure">](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2) | [<img src="https://raw.githubusercontent.com/ADHU-ADHU/scenepilot-ros2/main/docs/assets/tracking-poster.png" width="300" alt="A target segmentation result from the ScenePilot camera demo">](https://github.com/ADHU-ADHU/scenepilot-ros2) |
+| Motors, sensors, teleoperation and a route home. | Typed requests, visual answers and target tracking. |
 
-- [Technical optimization with metaheuristics](https://github.com/ADHU-ADHU/technical-optimization-metaheuristics) — MATLAB studies in assembly-line balancing with GA, supermarket location with SA and custom PSO, and steelmaking with linear programming.
-- [Tabular sensor anomaly detection](https://github.com/ADHU-ADHU/Anomaly-Detection-Tabular-Data-) — GANomaly-inspired modeling, autoencoder and beta-VAE baselines, and latent-space analysis in PyTorch.
+The robot project brings hardware and control together. **ScenePilot** connects language to camera-based perception; its VLM and segmentation demos work, and the wider platform is still in development. Both repositories have videos if you'd rather see them running first.
 
-## Tools I work with
+## A few other things I've worked on
 
-- **Robotics and embedded systems:** ROS 2, LiDAR, occupancy grids, Arduino/ESP32, micro-ROS and LoRa.
-- **AI and perception:** PyTorch, TensorFlow/Keras, autoencoders, variational autoencoders, vision-language models and segmentation.
-- **Optimization and metaheuristics:** Particle Swarm Optimization (PSO), Differential Evolution (DE), Genetic Algorithms (GA) and Simulated Annealing (SA). Exact methods include linear programming.
-- **Programming and development:** Python, C++/Arduino, MATLAB, Simulink and Git.
-- **Containers and deployment:** Docker, Docker Compose, Kubernetes and Helm.
+- **[TurtleBot3 hybrid exploration](https://github.com/ADHU-ADHU/turtlebot3-hybrid-exploration-ros2)** — choosing where to explore, planning a path and reacting to obstacles. This is the dedicated exploration project, with ROS 2 Jazzy, simulation and physical-robot results.
+- **[Visual inspection with AE/VAE models](https://github.com/ADHU-ADHU/factory-anomaly-detection-ae-vae)** — looking for assembly defects with autoencoders, variational autoencoders and transfer learning.
+- **[AGV planning with nested PSO](https://github.com/ADHU-ADHU/agv-part-feeding-nested-pso)** — deciding what to carry on each trip and the order in which to visit the stops.
+- **[ESP32, micro-ROS and LoRa](https://github.com/ADHU-ADHU/esp32-microros-lora-telemetry)** — sensor readings, ROS 2 topics and compact radio packets.
 
-The individual repositories include implementation details, setup guides, project evidence and validation scope.
+There are also [MATLAB optimization studies](https://github.com/ADHU-ADHU/technical-optimization-metaheuristics) and [anomaly-detection experiments on tabular sensor data](https://github.com/ADHU-ADHU/Anomaly-Detection-Tabular-Data-).
+
+## What I use
+
+Mostly **Python, ROS 2 and MATLAB/Simulink**, with **C++/Arduino** for embedded work and **PyTorch** or **TensorFlow/Keras** for machine learning.
+
+<details>
+<summary>A few more tools and topics</summary>
+
+- LiDAR, occupancy grids, ESP32, micro-ROS and LoRa
+- Vision-language models and segmentation
+- PSO, differential evolution, genetic algorithms, simulated annealing and linear programming
+- Git, Docker, Docker Compose, Kubernetes and Helm
+
+</details>
+
+Thanks for stopping by. The project links are a good place to start—there's more to see than this page can fit.
