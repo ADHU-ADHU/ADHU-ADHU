@@ -21,6 +21,7 @@ Also: [Tabular sensor anomaly detection](https://github.com/ADHU-ADHU/Anomaly-De
 
 - **Robotics and embedded systems:** ROS 2, LiDAR, occupancy grids, Arduino/ESP32, micro-ROS and LoRa.
 - **AI and perception:** PyTorch, TensorFlow/Keras, autoencoders, variational autoencoders, vision-language models and segmentation.
+- **Optimization and metaheuristics:** Particle Swarm Optimization (PSO), Differential Evolution (DE), Genetic Algorithms (GA) and Simulated Annealing (SA). Exact methods include linear programming.
 - **Programming and development:** Python, C++/Arduino, MATLAB, Simulink and Git.
 - **Containers and deployment:** Docker, Docker Compose, Kubernetes and Helm.
 
