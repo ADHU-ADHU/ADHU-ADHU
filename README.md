@@ -1,4 +1,4 @@
-# Hi, I'm Adhithya
+# Hi, I'm Adhu
 
 **Robotics · Autonomous Systems · Applied AI**
 
