@@ -1,16 +1,27 @@
-## Hi there 👋
+# Hi, I'm Adhithya
 
-<!--
-**ADHU-ADHU/ADHU-ADHU** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Robotics · Autonomous Systems · Applied AI**
 
-Here are some ideas to get you started:
+I build projects in mobile robot navigation, language-guided perception, embedded communication and machine learning for industrial inspection. My work spans physical robot integration, ROS 2 software, optimization algorithms and experimental evaluation.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured projects
+
+| Project | What it explores |
+| --- | --- |
+| [RoverLink](https://github.com/ADHU-ADHU/roverlink-ros2) | PC-to-robot teleoperation, teach-and-return control, LiDAR obstacle handling and frontier exploration on a differential-drive robot. |
+| [ScenePilot](https://github.com/ADHU-ADHU/scenepilot-ros2) | Language-guided visual question answering and target segmentation using ROS 2, Qwen3-VL and SAM 3, with recorded demos. |
+| [Factory visual anomaly detection](https://github.com/ADHU-ADHU/factory-anomaly-detection-ae-vae) | Master's thesis research on AE/VAE models and transfer learning for assembly inspection, with results from the publicly available thesis and a reusable Python implementation. |
+| [AGV planning with nested PSO](https://github.com/ADHU-ADHU/agv-part-feeding-nested-pso) | Part allocation across trips and pickup/delivery ordering with nested PSO, plus A* routing and a PSO/DE/GA evaluation. |
+| [TurtleBot3 hybrid exploration](https://github.com/ADHU-ADHU/turtlebot3-hybrid-exploration-ros2) | Frontier goal selection, A* planning and LiDAR obstacle avoidance with ROS 2 Jazzy and TurtleBot3. |
+| [ESP32 micro-ROS and LoRa telemetry](https://github.com/ADHU-ADHU/esp32-microros-lora-telemetry) | Temperature publishing, ROS 2 topic subscription and a compact CRC-checked radio telemetry link. |
+
+Also: [Tabular sensor anomaly detection](https://github.com/ADHU-ADHU/Anomaly-Detection-Tabular-Data-) — GANomaly-inspired modeling, autoencoder and beta-VAE baselines, and latent-space analysis in PyTorch.
+
+## Tools I work with
+
+- **Robotics and embedded systems:** ROS 2, LiDAR, occupancy grids, Arduino/ESP32, micro-ROS and LoRa.
+- **AI and perception:** PyTorch, TensorFlow/Keras, autoencoders, variational autoencoders, vision-language models and segmentation.
+- **Programming and development:** Python, C++/Arduino, MATLAB, Simulink and Git.
+- **Containers and deployment:** Docker, Docker Compose, Kubernetes and Helm.
+
+The individual repositories include implementation details, setup guides, project evidence and validation scope.
