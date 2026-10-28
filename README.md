@@ -1,8 +1,8 @@
 # Hi, I'm Adhu 👋
 
-**Making robots behave. Mostly.**
+**Robotics · AI/ML · Optimization**
 
-I've worked on robots that explore rooms and find their way back, and on perception software that responds to typed requests about what a camera sees. Along the way, I've also worked with industrial inspection, embedded electronics and algorithms for planning AGV deliveries.
+I work across robotics, AI/ML and optimization, connecting physical systems with perception, control and planning algorithms. My projects include ROS 2 robot integration, language-guided perception, industrial anomaly detection, and metaheuristic approaches to constrained routing and resource allocation.
 
 This is where I'm bringing those projects together, from my two master's programs and ongoing work. You'll find code, recordings and results, along with notes on what works and what still needs attention.
 
@@ -24,18 +24,20 @@ The robot project brings hardware and control together. **ScenePilot** connects 
 
 There are also [MATLAB optimization studies](https://github.com/ADHU-ADHU/technical-optimization-metaheuristics) and [anomaly-detection experiments on tabular sensor data](https://github.com/ADHU-ADHU/Anomaly-Detection-Tabular-Data-).
 
-## What I use
+## Technical focus
 
-Mostly **Python, ROS 2 and MATLAB/Simulink**, with **C++/Arduino** for embedded work and **PyTorch** or **TensorFlow/Keras** for machine learning.
+- **Robotics and autonomous systems:** sensor integration, pose estimation, SLAM integration, occupancy-grid mapping, frontier exploration, A* planning, path tracking, obstacle avoidance and teleoperation.
+- **AI, machine learning and perception:** autoencoders, variational autoencoders, anomaly detection, transfer learning, vision-language models and image segmentation, with applications in industrial inspection and robot perception.
+- **Metaheuristic optimization:** Particle Swarm Optimization (**PSO**), Differential Evolution (**DE**), Genetic Algorithms (**GA**) and Simulated Annealing (**SA**). My work covers problem formulation, objective functions, constraint handling, parameter tuning and convergence comparisons, applied to AGV allocation and routing, assembly-line balancing and facility location.
+- **Mathematical optimization:** linear programming for constrained production planning and resource allocation.
 
-<details>
-<summary>A few more tools and topics</summary>
+## Tools and platforms
 
-- LiDAR, occupancy grids, ESP32, micro-ROS and LoRa
-- Vision-language models and segmentation
-- PSO, differential evolution, genetic algorithms, simulated annealing and linear programming
-- Git, Docker, Docker Compose, Kubernetes and Helm
-
-</details>
-
-Thanks for stopping by.
+| Area | Tools and technologies |
+| --- | --- |
+| Programming and numerical computing | Python, C++ (Arduino), MATLAB |
+| Modeling and simulation | Simulink, Gazebo |
+| Robotics middleware | ROS 2, micro-ROS |
+| Machine learning frameworks | PyTorch, TensorFlow/Keras |
+| Embedded platforms and communication | Raspberry Pi, ESP32, Arduino, LoRa |
+| Development and deployment | Git, Docker, Docker Compose, Kubernetes, Helm |
