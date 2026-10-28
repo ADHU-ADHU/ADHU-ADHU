@@ -2,13 +2,13 @@
 
 **Making robots behave. Mostly.**
 
-I've worked on robots that explore rooms, find their way back, and respond to typed requests about what a camera sees. Along the way, I've also worked with industrial inspection, embedded electronics and algorithms for planning AGV deliveries.
+I've worked on robots that explore rooms and find their way back, and on perception software that responds to typed requests about what a camera sees. Along the way, I've also worked with industrial inspection, embedded electronics and algorithms for planning AGV deliveries.
 
 This is where I'm bringing those projects together, from my two master's programs and ongoing work. You'll find code, recordings and results, along with notes on what works and what still needs attention.
 
 ## A glimpse of the work
 
-| [A robot from the ground up](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2) | [Giving perception a language interface](https://github.com/ADHU-ADHU/scenepilot-ros2) |
+| [A robot from the ground up](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2) | [A camera that follows instructions](https://github.com/ADHU-ADHU/scenepilot-ros2) |
 | :---: | :---: |
 | [<img src="https://raw.githubusercontent.com/ADHU-ADHU/mobile-robot-platform-ros2/main/docs/assets/roverlink-robot.jpg" width="300" alt="The assembled ROS 2 mobile robot with its LiDAR and enclosure">](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2) | [<img src="https://raw.githubusercontent.com/ADHU-ADHU/scenepilot-ros2/main/docs/assets/tracking-poster.png" width="300" alt="A target segmentation result from the ScenePilot camera demo">](https://github.com/ADHU-ADHU/scenepilot-ros2) |
 | Motors, sensors, teleoperation and a route home. | Typed requests, visual answers and target tracking. |
@@ -38,4 +38,4 @@ Mostly **Python, ROS 2 and MATLAB/Simulink**, with **C++/Arduino** for embedded 
 
 </details>
 
-Thanks for stopping by. The project links are a good place to start—there's more to see than this page can fit.
+Thanks for stopping by.
