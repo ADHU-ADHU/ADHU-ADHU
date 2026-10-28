@@ -8,7 +8,7 @@ I build projects in mobile robot navigation, language-guided perception, embedde
 
 | Project | What it explores |
 | --- | --- |
-| [RoverLink](https://github.com/ADHU-ADHU/roverlink-ros2) | PC-to-robot teleoperation, teach-and-return control, LiDAR obstacle handling and frontier exploration on a differential-drive robot. |
+| [ROS 2 Medical Transport Robot](https://github.com/ADHU-ADHU/medical-transport-robot-ros2) | Teleoperated medical transport with live sensor feedback and commanded return to base. Includes joystick control, LiDAR obstacle handling and mapping, with frontier exploration and routing as additional experiments. |
 | [ScenePilot](https://github.com/ADHU-ADHU/scenepilot-ros2) | Language-guided visual question answering and target segmentation using ROS 2, Qwen3-VL and SAM 3, with recorded demos. |
 | [Factory visual anomaly detection](https://github.com/ADHU-ADHU/factory-anomaly-detection-ae-vae) | Master's thesis research on AE/VAE models and transfer learning for assembly inspection, with results from the publicly available thesis and a reusable Python implementation. |
 | [AGV planning with nested PSO](https://github.com/ADHU-ADHU/agv-part-feeding-nested-pso) | Part allocation across trips and pickup/delivery ordering with nested PSO, plus A* routing and a PSO/DE/GA evaluation. |
