@@ -8,12 +8,25 @@ This is where I'm bringing those projects together, from my two master's program
 
 ## A glimpse of the work
 
-| [A robot from the ground up](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2) | [A camera that follows instructions](https://github.com/ADHU-ADHU/scenepilot-ros2) |
-| :---: | :---: |
-| [<img src="https://raw.githubusercontent.com/ADHU-ADHU/mobile-robot-platform-ros2/main/docs/assets/roverlink-robot.jpg" width="300" alt="The assembled ROS 2 mobile robot with its LiDAR and enclosure">](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2) | [<img src="https://raw.githubusercontent.com/ADHU-ADHU/scenepilot-ros2/main/docs/assets/tracking-poster.png" width="300" alt="A target segmentation result from the ScenePilot camera demo">](https://github.com/ADHU-ADHU/scenepilot-ros2) |
-| Motors, sensors, teleoperation and a route home. | Typed requests, visual answers and target tracking. |
+### [A robot from the ground up](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2)
 
-The robot project brings hardware and control together. **ScenePilot** connects language to camera-based perception; its VLM and segmentation demos work, and the wider platform is still in development. Both repositories have videos if you'd rather see them running first.
+Motors, sensors, teleoperation and mapping on a physical ROS 2 robot.
+
+https://github.com/user-attachments/assets/cd998e9a-4e2d-4023-997b-f0450d08a12d
+
+### [ScenePilot · Language-Guided Robot Perception](https://github.com/ADHU-ADHU/scenepilot-ros2)
+
+Natural-language questions, visual answers and semantic target selection with Qwen3-VL and SAM 3.
+
+https://github.com/user-attachments/assets/513159de-e3a8-439b-97b9-53676761720d
+
+*Both recordings are silent and play directly on GitHub.*
+
+## Currently working on
+
+ScenePilot has grown into the foundation for my ongoing master's thesis on **network-aware robot perception**. I'm investigating how video transport and AI processing choices affect end-to-end latency and perception performance, including **SCReAM congestion control and L4S**. The planned robot platform is a **Husky**.
+
+The public ScenePilot repository shows the earlier working perception prototype. Thesis-specific methods, implementation and results remain unpublished; [SCReAM is available upstream as open source](https://github.com/EricssonResearch/scream). [Project update](https://github.com/ADHU-ADHU/scenepilot-ros2/blob/main/docs/PROJECT_UPDATE.md).
 
 ## A few other things I've worked on
 
