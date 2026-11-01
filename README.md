@@ -20,7 +20,7 @@ Natural-language questions, visual answers and semantic target selection with Qw
 
 https://github.com/user-attachments/assets/513159de-e3a8-439b-97b9-53676761720d
 
-*Both recordings are silent and play directly on GitHub.*
+*Silent demos: mobile robot, 35 seconds; ScenePilot, 48 seconds. [Media provenance](https://github.com/ADHU-ADHU/ADHU-ADHU/blob/main/media/provenance.json).*
 
 ## Currently working on
 
