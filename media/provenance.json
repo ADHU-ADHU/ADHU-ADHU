@@ -1,5 +1,5 @@
 {
-  "description": "Media audit and prepared silent profile videos. Repository files and original recordings remain unchanged.",
+  "description": "Silent profile videos and their source metadata. Source video files and original recordings remain unchanged.",
   "files": [
     {
       "file": "mobile-robot-profile-demo.mp4",
@@ -47,7 +47,8 @@
         ],
         "alignment": "Approximate visual alignment only, not a verified shared source clock. Existing label retained."
       },
-      "visual_inspection": "Frames at 0,12,16,33 seconds show actual robot position changes around the room and changing RViz map; not a still image."
+      "visual_inspection": "Frames at 0,12,16,33 seconds show actual robot position changes around the room and changing RViz map; not a still image.",
+      "profile_display_status": "Previous robot/SLAM profile clip; retained in the project demo library and replaced in the profile by the robot/frontier clip."
     },
     {
       "file": "scenepilot-profile-demo.mp4",
@@ -85,7 +86,7 @@
           100,
           148
         ],
-        "speed_factor": 1.0,
+        "speed_factor": 1,
         "source_alignment": "Both public clips document the same original time window 80-148 seconds. The derived view uses matching offsets in both."
       },
       "sources": [
@@ -139,6 +140,84 @@
         "Actual person-mask view changes to a phone-only mask that follows device orientation."
       ],
       "visual_inspection": "Inspected synchronized frames across beginning, typed request and final phone-only mask; final frame at45seconds clearly shows green smartphone mask and bounding box."
+    },
+    {
+      "file": "run-1-robot-frontier.mp4",
+      "sha256": "034973863233611cb21464a05f639f7b6590aead1c55cb1b32d3634ef04eac1b",
+      "probe": {
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "width": 760,
+            "height": 438,
+            "avg_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "40.166667",
+          "size": "993721"
+        }
+      },
+      "audio_stream_count": 0,
+      "full_decode": "passed",
+      "normal_speed": true,
+      "synthetic_visuals_added": false,
+      "title": "Physical robot run alongside frontier clusters and exploration planning",
+      "edit": "Unchanged copy of the existing public paired Run 1 video. No additional trimming, encoding or frame changes.",
+      "source": {
+        "repository": "ADHU-ADHU/mobile-robot-platform-ros2",
+        "path": "docs/demos/run-1-robot-frontier.mp4",
+        "documented_public_url": "https://raw.githubusercontent.com/ADHU-ADHU/mobile-robot-platform-ros2/main/docs/demos/run-1-robot-frontier.mp4",
+        "sha256": "034973863233611cb21464a05f639f7b6590aead1c55cb1b32d3634ef04eac1b"
+      },
+      "original_recording_mapping": [
+        {
+          "source": "Run1_video.mp4",
+          "sha256": "47244d92b883823db2777077c7063b2d3c1f26a6aa9ab888e2df88a9c698ad01",
+          "start_seconds": 0,
+          "duration_seconds": 40.154567,
+          "crop": null,
+          "scale": "192px wide, aspect ratio retained with even height",
+          "panel_title": "Run 1 Robot"
+        },
+        {
+          "source": "frontier_exploration_no_distrubance_run1.webm",
+          "sha256": "ab26858f83704d15a7097eb8fa5bc00c6aa94124bb75bce6db3a3c917398b7e2",
+          "start_seconds": 13,
+          "duration_seconds": 40.154567,
+          "crop": {
+            "width": 780,
+            "height": 610,
+            "x": 25,
+            "y": 25
+          },
+          "scale": {
+            "width": 500,
+            "height": 390
+          },
+          "panel_title": "Frontier map"
+        }
+      ],
+      "timing": {
+        "speed": 1,
+        "playback_clock": "Both panels are encoded into one file and share the same playback clock.",
+        "temporal_alignment_confidence": "approximate",
+        "alignment_basis": "The desktop capture has terminal startup before the map appears. Source 13 seconds is an early visible plot near the initial robot pose. No shared timestamp establishes frame-accurate synchronization with the handheld physical recording.",
+        "relative_start_offset_seconds": 13,
+        "robot_window_seconds": [
+          0,
+          40.154567
+        ],
+        "map_window_seconds": [
+          13,
+          53.154567
+        ],
+        "stretch_or_speed_change": false,
+        "last_frame_holds_added": false
+      },
+      "visual_inspection": "Playback frame at 5 seconds inspected: actual robot on left and three coloured frontier clusters, map and planning markers on right.",
+      "profile_display_status": "Current profile robot demo."
     }
   ],
   "provenance_documents_read": [
@@ -151,6 +230,11 @@
   ],
   "published_attachments": {
     "mobile-robot-profile-demo.mp4": "https://github.com/user-attachments/assets/cd998e9a-4e2d-4023-997b-f0450d08a12d",
-    "scenepilot-profile-demo.mp4": "https://github.com/user-attachments/assets/513159de-e3a8-439b-97b9-53676761720d"
-  }
+    "scenepilot-profile-demo.mp4": "https://github.com/user-attachments/assets/513159de-e3a8-439b-97b9-53676761720d",
+    "run-1-robot-frontier.mp4": "https://github.com/user-attachments/assets/7060e6dc-57cf-4c7e-8cee-60e4c8825eae"
+  },
+  "current_profile_videos": [
+    "run-1-robot-frontier.mp4",
+    "scenepilot-profile-demo.mp4"
+  ]
 }
