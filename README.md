@@ -10,7 +10,7 @@ This is where I'm bringing those projects together, from my two master's program
 
 ### [A robot from the ground up](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2)
 
-A physical ROS 2 robot run alongside the frontier-cluster and exploration-planning view.
+Physical ROS 2 robot motion alongside frontier clusters and the exploration planning map.
 
 https://github.com/user-attachments/assets/7060e6dc-57cf-4c7e-8cee-60e4c8825eae
 
