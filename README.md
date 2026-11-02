@@ -10,9 +10,11 @@ This is where I'm bringing those projects together, from my two master's program
 
 ### [A robot from the ground up](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2)
 
-Motors, sensors, teleoperation and mapping on a physical ROS 2 robot.
+A physical ROS 2 robot run alongside the frontier-cluster and exploration-planning view.
 
-https://github.com/user-attachments/assets/cd998e9a-4e2d-4023-997b-f0450d08a12d
+https://github.com/user-attachments/assets/7060e6dc-57cf-4c7e-8cee-60e4c8825eae
+
+*Normal playback speed; the robot and desktop recordings are approximately aligned. [Full recordings and SLAM view](https://github.com/ADHU-ADHU/mobile-robot-platform-ros2/blob/main/docs/demos/README.md).*
 
 ### [ScenePilot · Language-Guided Robot Perception](https://github.com/ADHU-ADHU/scenepilot-ros2)
 
@@ -20,7 +22,7 @@ Natural-language questions, visual answers and semantic target selection with Qw
 
 https://github.com/user-attachments/assets/513159de-e3a8-439b-97b9-53676761720d
 
-*Silent demos: mobile robot, 35 seconds; ScenePilot, 48 seconds. [Media provenance](https://github.com/ADHU-ADHU/ADHU-ADHU/blob/main/media/provenance.json).*
+*Silent demos: robot + frontier exploration, 40 seconds; ScenePilot, 48 seconds. [Media provenance](https://github.com/ADHU-ADHU/ADHU-ADHU/blob/main/media/provenance.json).*
 
 ## Currently working on
 
